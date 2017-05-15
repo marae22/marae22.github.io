@@ -69,20 +69,21 @@ body{
 }
 
 .nav{
-  font-family: 'Rock Salt', cursive;
+  /*font-family: 'Rock Salt', cursive;*/
 }
 
 header{
-  background-image: url("../images/flowerTitle.png");
+  background-image: url("../images/computer1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 
 h1{
-  font-family: 'Rock Salt', cursive, sans-serif;
-  letter-spacing: 7px;
-  line-height: 1.75;
+  /*font-family: 'Chonburi', cursive;*/
+  font-family: 'Cinzel', serif;
+  /*font-famsily: 'Candal', sans-serif;*/
+
   color: #fff;
 }
 
@@ -120,7 +121,7 @@ hr{
   font-size: 4rem;
   margin-top: 1.5em;
   margin-bottom: auto;
-  font-family: 'Rock Salt', cursive, sans-serif;
+  /*font-family: 'Rock Salt', cursive, sans-serif;*/
 }
 
 .text-faded{
@@ -142,7 +143,7 @@ hr.light{
 #bg-portfolio{
   background-color: #F2FAF6;
   min-height: 80vh;
-  padding: 2em 1em 0 1em;
+  /*padding: 2em 1em 0 1em;*/
   opacity: 1;
 }
 
@@ -169,12 +170,16 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption {
-  background-color: #508484;
+  background-color: #333;
   border-radius: 3px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-    opacity: .9;
+    /*opacity: .9;*/
+}
+
+.text-faded {
+    color: #fff;
 }
 
 .img-responsive{
